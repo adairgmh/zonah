@@ -35,7 +35,6 @@ local_settings.py
 #staticfiles/
 static_collected/
 media/
-settings.py
 
 # Ignorar archivos generados por el comando "collectstatic"
 #collectedstatic/
