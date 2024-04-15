@@ -3,8 +3,9 @@
 *.pyo
 *.pyd
 __pycache__
-__init__.py
+# __init__.py
 .DS_Store
+*_initial.py
 
 # Ignorar el directorio donde se instalan las dependencias
 env/
@@ -40,9 +41,9 @@ media/
 #collectedstatic/
 
 # Ignorar el archivo de migraciones no aplicadas
-**/migrations/*.py
-**/migrations/*.pyc
-**/migrations/__pycache__/
+# **/migrations/*.py
+# **/migrations/*.pyc
+# **/migrations/__pycache__/
 
 # Ignorar el archivo de migraciones aplicadas
 #*.migration
