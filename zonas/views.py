@@ -18,3 +18,7 @@ def obtener_hora_estado(request, estado_id):
     }
     return render(request, 'hora_estado.html', context)
 
+def obtener_select (request):
+    
+
+    return render (request, 'select.html')
